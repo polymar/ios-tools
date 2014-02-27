@@ -11,16 +11,16 @@
 	<key>IDECodeSnippetContents</key>
 	<string>/*! &lt;#comment here#&gt; !*/</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>5AB99835-A7A4-445C-A539-1B6801D5BAEB</string>
+	<string>5F0E790A-8156-4CAD-9084-3BFFBA7C1EE8</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Inline comment section</string>
-	<key>IDECodeSnippetTitle</key>
 	<string>Inline Comment</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Inline comment </string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

@@ -14,16 +14,16 @@
  *
  */</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>D406855E-357D-4510-9786-44FBBE4EC99B</string>
+	<string>0308D5FD-7470-45EA-B157-FC6B82DFDACC</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Extended comment section</string>
+	<string>Extended comment</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Comment section</string>
+	<string>Comment</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
