@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>@header</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>////////////////////////////////////////////////////////////////////////////////
+//
+// <#project name#>
+// Copyright (c) 2014 Hewlett-Packard Development Company, L.P.
+// All Rights Reserved Worldwide
+// Proprietary and Confidential - Not for Distribution
+// Written by Roberto Gamboni
+//
+// &lt;#filename#&gt;
+//
+// AUTHOR IDENTITY:
+//		&lt;#firstname#&gt;.&lt;#lastname#&gt;		&lt;#data#&gt;
+//    
+////////////////////////////////////////////////////////////////////////////////</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>37217BB2-9708-4B2E-941B-91F39E8E803B</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Header section for every file in the project</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Header</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
