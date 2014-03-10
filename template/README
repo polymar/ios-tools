@@ -1,0 +1,11 @@
+This folder contains source Xcode template (not usable in its bare state) and a ruby script for converting the source Xcode template into a usabe Xcode template.
+
+In order to generate a project Xcode template, use the following script:
+
+ruby gen_template.rb Owner Author
+
+   - Owner represents the owner of the project and the copyright holder
+   - Author represents who is creating/writing the project
+
+The script will generate a new folder called 'owner'_template, which can be installed as Xcode template
+copying it at '~/Library/Developer/Xcode/Templates/' (Note: you might have to create the 'Templates' folder).
