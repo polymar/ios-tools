@@ -37,6 +37,7 @@ if success
 	puts "---"
 	puts "In order to install the template, you must copy" 
 	puts " the template folder at ~/Library/Developer/Xcode/Templates/"
-	puts " NOTE: you might have to create the 'Templates' folder"
+	puts " and restart your Xcode"
+	puts "NOTE: you might have to create the 'Templates' folder"
 	puts "################################################"
 end
