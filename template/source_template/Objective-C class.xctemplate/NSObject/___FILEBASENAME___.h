@@ -29,4 +29,3 @@ ___IMPORTHEADER_foundationSubclass___
 
 @end
 
-//@}
