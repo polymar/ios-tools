@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><meta name="exporter-version" content="Evernote Mac 5.5.0 (402474)"/><meta name="author" content="roberto_gamboni"/><meta name="created" content="2014-02-21 13:58:47 +0000"/><meta name="updated" content="2014-03-11 11:40:27 +0000"/><title>iOS Implementation File Format</title></head><body style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;">
+Project Header<br/>
+<div><br/></div>
+<div>Import statements (import from frameworks always before import from project) </div>
+<div><br/></div>
+<div>
+<div><span style="color: rgb(75, 209, 87); font-family: Menlo; font-size: 14px;">////////////////////////////////////////////////////////////////////////////////</span><br/></div>
+<div>Constant and DEFINE (if not present, DO NOT REMOVE the separator above)</div>
+</div>
+<div><br/></div>
+<div>
+<div><span style="color: rgb(75, 209, 87); font-family: Menlo; font-size: 14px;">////////////////////////////////////////////////////////////////////////////////</span><br/></div>
+<div>Class Private Category (every method or property require a separate comment)</div>
+</div>
+<div><br/></div>
+<div><span style="color: rgb(75, 209, 87); font-family: Menlo; font-size: 14px;">////////////////////////////////////////////////////////////////////////////////</span><br/></div>
+<div><span style="font-size: 14px; font-family: Menlo; color: rgb(235, 144, 90);">#pragma mark -</span><span style="color: rgb(75, 209, 87); font-family: Menlo; font-size: 14px;"><br/></span></div>
+<div>Implementation<span style="color: rgb(75, 209, 87); font-family: Menlo; font-size: 14px;"><br/></span></div>
+<div><br/></div>
+<div>Synthesize (ideally in the same order used in the property declaration)</div>
+<div><br/></div>
+<div><span style="color: rgb(235, 144, 90); font-family: Menlo; font-size: 14px;">#pragma mark -</span><br/></div>
+<div><span style="color: rgb(235, 144, 90); font-family: Menlo; font-size: 14px;"><br/></span></div>
+<div>Init/Dealloc/Lifecycle methods (viewWill*, viewDid*…)</div>
+<div><br/></div>
+<div><span style="color: rgb(235, 144, 90); font-family: Menlo; font-size: 14px;">#pragma mark -</span><br/></div>
+<div><span style="color: rgb(235, 144, 90); font-family: Menlo; font-size: 14px;"><br/></span></div>
+<div>Private Methods (using the same order we have in the definition in the private category)</div>
+<div><br/></div>
+<div>
+<div><span style="color: rgb(235, 144, 90); font-family: Menlo; font-size: 14px;">#pragma mark -</span><br/></div>
+<div><span style="color: rgb(235, 144, 90); font-family: Menlo; font-size: 14px;"><br/></span></div>
+<div>Public Methods (using the same order we have in the definition in the interface file)</div>
+</div>
+<div><br/></div>
+<div>
+<div><span style="color: rgb(235, 144, 90); font-family: Menlo; font-size: 14px;">#pragma mark -</span><br/></div>
+<div><span style="color: rgb(235, 144, 90); font-family: Menlo; font-size: 14px;">#pragma mark ProtocolName1 (for </span><font color="#EB905A" face="Menlo"><span style="font-size: 14px;">instance, UITableViewDataSource)</span></font><br/></div>
+<div><span style="color: rgb(235, 144, 90); font-family: Menlo; font-size: 14px;"><br/></span></div>
+<div>Protocol Implementation</div>
+</div>
+<div><br/></div>
+<div>
+<div><span style="color: rgb(235, 144, 90); font-family: Menlo; font-size: 14px;">#pragma mark -</span><br/></div>
+<div><span style="color: rgb(235, 144, 90); font-family: Menlo; font-size: 14px;">#pragma mark ProtocolName2 (for </span><font color="#EB905A" face="Menlo"><span style="font-size: 14px;">instance, UITableViewDelegate)</span></font><br/></div>
+<div><span style="color: rgb(235, 144, 90); font-family: Menlo; font-size: 14px;"><br/></span></div>
+<div>Protocol Implementation</div>
+</div>
+</body></html>
