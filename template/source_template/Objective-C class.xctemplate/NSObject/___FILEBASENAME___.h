@@ -23,7 +23,6 @@ ___IMPORTHEADER_foundationSubclass___
 ////////////////////////////////////////////////////////////////////////////////
 /**
  *
- *
  */
 @interface ___FILEBASENAMEASIDENTIFIER___ : ___VARIABLE_foundationSubclass___
 

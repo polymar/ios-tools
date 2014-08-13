@@ -14,10 +14,10 @@
 ////////////////////////////////////////////////////////////////////////////////
 
 ////////////////////////////////////////////////////////////////////////////////
-#import <SenTestingKit/SenTestingKit.h>
+#import <XCTest/XCTest.h>
 
 ////////////////////////////////////////////////////////////////////////////////
-@interface ___FILEBASENAMEASIDENTIFIER___ : SenTestCase
+@interface ___FILEBASENAMEASIDENTIFIER___ : XCTestCase
 
 @end
 
@@ -29,12 +29,12 @@
 {
 	[super setUp];
 	
-	// Do some set ups
+	// setup
 }
 
 - (void)tearDown
 {
-	// Do some tear downs
+	// tear downs
 	
 	[super tearDown];
 }
