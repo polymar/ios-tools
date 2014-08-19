@@ -11,29 +11,30 @@
 	<key>IDECodeSnippetContents</key>
 	<string>////////////////////////////////////////////////////////////////////////////////
 //
-// <#project name#>
-// Copyright (c) 2014 Hewlett-Packard Development Company, L.P.
+// &lt;#owner#&gt; &lt;#project name#&gt;
+// Copyright (c) 2014 &lt;#owner#&gt;
 // All Rights Reserved Worldwide
 // Proprietary and Confidential - Not for Distribution
-// Written by Roberto Gamboni
+// Written by Code Krafters
 //
 // &lt;#filename#&gt;
 //
 // AUTHOR IDENTITY:
-//		&lt;#firstname#&gt;.&lt;#lastname#&gt;		&lt;#data#&gt;
-//    
-////////////////////////////////////////////////////////////////////////////////</string>
+//		&lt;#firstname#&gt; &lt;#lastname#&gt;		&lt;#data#&gt;
+//
+////////////////////////////////////////////////////////////////////////////////
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>37217BB2-9708-4B2E-941B-91F39E8E803B</string>
+	<string>4D11F792-A23D-4628-9F74-225CD5846EEB</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Header section for every file in the project</string>
+	<string>file header</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Header</string>
+	<string>header</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

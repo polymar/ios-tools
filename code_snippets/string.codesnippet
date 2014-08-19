@@ -6,10 +6,10 @@
 	<string>@string</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>NSLocalizedString(&lt;#key#&gt;, nil)</string>
+	<string>NSLocalizedString(&lt;#key#&gt;, &lt;#comment#&gt;)</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>A163B2B2-A51A-4E8C-8C97-90307A694746</string>
 	<key>IDECodeSnippetLanguage</key>
@@ -21,6 +21,6 @@
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>
